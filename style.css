@@ -1,2 +1,26 @@
+body{
+
+}
+
+#boxes{
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    border: 2px;
+    border-style: green;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 50px;
+}   
+
+.groupBox{
+    width: 200px;
+    height: 200px;
+    background:linear-gradient(green,white);
+    font-size: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
